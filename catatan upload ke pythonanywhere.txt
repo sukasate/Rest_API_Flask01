@@ -1,0 +1,17 @@
+jika ingin di upload di pythonanywhere
+silahkan kode nya yg atas di ubah menjadi seperti ini
+
+from flask
+import Flask
+from flask
+import request, jsonify
+
+import sqlite3
+
+
+
+app = Flask(__name__)
+
+
+dan yg paling bawah di hapus
+app.run() ===> di hapus
